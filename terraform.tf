@@ -18,6 +18,3 @@ resource "aws_subnet" "terraform-subnet_1" {
   }
 }
 
-output "aws_subnet_subnet_1" {
-  value = "${aws_subnet.terraform-subnet_1.id}"
-}
