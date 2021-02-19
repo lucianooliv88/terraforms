@@ -1,5 +1,5 @@
 resource "aws_instance" "terraform_tests" {
-    ami = "ami-0fc970315c2d38f01"
+    ami = "var.image_id"
     instance_type = "t2.micro"
     vpc_security_group_ids =  [ "${aws_security_group.terraform_public_sg.id}" ]
     subnet_id = "${aws_subnet.terraform-subnet_1.id}"
