@@ -7,10 +7,6 @@ resource "aws_vpc" "terraform-vpc" {
   }
 }
 
-output "aws_vpc_id" {
-  value = "${aws_vpc.terraform-vpc.id}"
-}
-
 ## Create Subnets ##
 resource "aws_subnet" "terraform-subnet_1" {
   vpc_id     = "${aws_vpc.terraform-vpc.id}"
