@@ -7,9 +7,9 @@ resource "aws_instance" "terraform_tests" {
     count         = 1
     associate_public_ip_address = true
     tags = {
-      Name              = "terraform_ec2_wapp_awsdev"
-      Environment       = "development"
-      Project           = "DEMO-TERRAFORM"
+      Name              = "terraform_ec2_tests"
+      Environment       = "Tests"
+      Project           = "TERRAFORM-TESTS"
     }
 }
 
