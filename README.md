@@ -8,5 +8,5 @@ From this idea we can improve those scripts which I have locally to build up
 - IPsec VPN to on Premises 
 - Others necessary Service, for example, such as EFS, DNS route53, LBs, Target groups, Auto-scalings, Lambdas, IAMs (roles&policies), SNS, WAF, following the necessity of the envirionment
 - Adding CloudWatch logs and Dashboard to the resources
-- Controller instance with Ansible to OS level installations (System Manager Automatation / Run Command) to perform simple scripts to the envirionment.
+- Controller instance with Ansible to OS level installations (System Manager Automation / Run Command) to perform simple scripts to the envirionment.
 
